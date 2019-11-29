@@ -1,12 +1,14 @@
 # websocket-ping-py 
 A websocket program, that is reciving timestamp , to know when to send a message and then disconnects! 
 Used for headless Windows/Linux machines to know if they are online!
+Use main.py to run the script itself.
+The script can be closed only by killing the process.
 
 The script is functioning in the next order.
 1. On start check if there is a internet connection by ping www.google.com.
 2. Check if config.cfg exist.
 3. Compare local and remote time.
-4. If times are +-10 seconds, the program will consider itself synced and it will continue the execution.
+4. If times are +-3 seconds, the program will consider itself synced and it will continue the execution.
 5. Send the unique identifier with "|online"
 6. Recives the timestamp in the future when to send the message.
 
