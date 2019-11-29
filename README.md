@@ -26,4 +26,4 @@ For the backend i used Node-Red:
 </p>
 
 
-In near future i will be building a Node-Red node and push it to NPM.
+This project is using a Node-Red flow as a backend.
